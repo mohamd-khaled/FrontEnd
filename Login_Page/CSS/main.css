@@ -1,0 +1,47 @@
+body{
+    background:linear-gradient(135deg, blue, blueviolet 40% );
+    font-family: 'Times New Roman', Times, serif;
+    direction: rtl;
+}
+
+
+.container{
+
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    box-shadow: 0 10px 50px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 30px;
+    border-color: #ddd;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.login button{
+    width: 100%;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.login button:hover{
+    background-color: blueviolet;
+}
