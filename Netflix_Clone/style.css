@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(luffy-gear-5-one-piece-4k-wallpaper-uhdpaper.com-604@1@l.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 20px 20px;
+    top: 0;
+}
+
+.logo{
+    color: #e50914;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signin{
+    background-color: #e50914;
+    padding: 5px 20px;
+    color: white;
+    border: none;
+    border-radius:3px ;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.signin:hover{
+    background-color: #f40612;
+}
+
+.container{
+    height: 100vh;
+    color: white;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px;
+}
+
+
+.container p{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.container .email-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .email-form input{
+    max-width: 400px;
+    padding: 10px 20px;
+    width: 70%;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.container .email-form button{
+    background-color: #e50914;
+    padding: 5px 20px;
+    color: white;
+    border: none;
+    border-radius:3px ;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.container .email-form button:hover{
+    background-color: #f40612;
+}
