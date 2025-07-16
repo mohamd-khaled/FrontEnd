@@ -258,6 +258,7 @@ header .icons i:hover{
     }
 
     .home {
+        display: flex;
         flex-direction: column;
         text-align: center;
         height: 100vh;
@@ -290,6 +291,21 @@ header .icons i:hover{
     
     .home .button {
         position: absolute;
+    }
+}
+
+@media (max-width: 600px) {
+    /* Mobile Portrait */
+    .home .main_text h1 {
+        font-size: 40px;
+    }
+    
+    .home .main_text h1 span {
+        font-size: 60px;
+    }
+    
+    .home .main_img {
+        width: 300px;
     }
 }
 /* End Home Section */
@@ -430,6 +446,37 @@ header .icons i:hover{
     }
 }
 
+@media (max-width: 600px) {
+    .product .box {
+        grid-template-columns: 1fr;
+    }
+    
+    .product .box .card {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .product {
+        height: 405vh;
+        margin-bottom: 300px;
+    }    
+
+    .product h1{
+        font-size: 40px;
+    }
+    .product .box {
+        grid-template-columns: 1fr;
+    }
+    
+    .product .box .card {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 35;
+    }
+}
 /* End Product Section */
 
 /* About Section */
@@ -566,6 +613,34 @@ header .icons i:hover{
         width: fit-content;
         left: auto;
         transform: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .about .container .images {
+        flex-direction: column;
+    }
+    
+    .about .container .images .image_container {
+        margin: 0;
+    }
+    
+    .about .container .images .image_container img {
+        height: 250px;
+    }
+}
+
+@media (max-width: 400px) {
+    .about .container .images {
+        flex-direction: column;
+    }
+    
+    .about .container .images .image_container {
+        margin: 0;
+    }
+    
+    .about .container .images .image_container img {
+        height: 200px;
     }
 }
 /* End About Section */
@@ -748,6 +823,32 @@ header .icons i:hover{
     }
     
 }
+
+
+@media (max-width: 600px) {
+    .login {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 20px;
+    }
+    
+    .login .image {
+        position: relative;
+        margin-bottom: 30px;
+        left: 25%;
+    }
+    
+    .login .login_form {
+        position: static;
+        width: 100%;
+    }
+    
+    .login .login_form .forget {
+        left: 0;
+        text-align: right;
+    }
+}
+
 /* End Login section */
 
 footer{
