@@ -266,9 +266,12 @@ header .icons i:hover{
     }
     
     .home::before {
-        background-position: left;
+        background-position: center;
     }
 
+    .home .social_icons i{
+        margin-right: 20px;
+    }
     .home .main_text h1 {
         position: absolute;
         margin: auto;
@@ -277,13 +280,6 @@ header .icons i:hover{
         position: absolute;
         margin: 40px auto;
     }
-
-    .home .main_img {
-        position: absolute;
-        left: 44%;
-        top: 28%;
-    }
-    
     .home .main_img img{
         position: absolute;
         width:60%;
@@ -295,7 +291,14 @@ header .icons i:hover{
 }
 
 @media (max-width: 600px) {
-    /* Mobile Portrait */
+    .home {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 100vh;
+        padding: 100px 20px 50px;
+    }
+
     .home .main_text h1 {
         font-size: 40px;
     }
@@ -304,8 +307,17 @@ header .icons i:hover{
         font-size: 60px;
     }
     
+    .home .main_text p {
+        font-size: 10px;
+    }
     .home .main_img {
-        width: 300px;
+        position: absolute;
+        left: -15%;
+        top: 10%;
+    }
+    .home .main_img img{
+        position: absolute;
+        width: 50%;
     }
 }
 /* End Home Section */
@@ -640,7 +652,7 @@ header .icons i:hover{
     }
     
     .about .container .images .image_container img {
-        height: 200px;
+        height: 230px;
     }
 }
 /* End About Section */
@@ -848,6 +860,8 @@ header .icons i:hover{
         text-align: right;
     }
 }
+
+
 
 /* End Login section */
 
