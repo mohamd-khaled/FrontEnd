@@ -1,18 +1,8 @@
 let mainImg = document.querySelector('#mainImg');
 let smallImg = document.querySelectorAll('.small-img');
 
-smallImg[0].addEventListener('click', () =>{
-    mainImg.src = smallImg[0].src;
-})
-
-smallImg[1].addEventListener('click', () =>{
-    mainImg.src = smallImg[1].src;
-})
-
-smallImg[2].addEventListener('click', () =>{
-    mainImg.src = smallImg[2].src;
-})
-
-smallImg[3].addEventListener('click', () =>{
-    mainImg.src = smallImg[3].src;
-})
+smallImg.forEach((item) => {
+    item.addEventListener('click', () => {
+        mainImg.src = item.src;
+    });
+});
