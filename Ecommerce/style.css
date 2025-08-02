@@ -123,7 +123,7 @@ body {
 /* Home section */
 /* landing */
 .hero{
-    background-image: url(img/hero4.png);
+    background-image: url(img/fulllength-attractive-korean-guy-black-clothes-showing-thumbsup-holding-shopping-bags-yellow-b.jpg);
     background-size: cover;
     background-position:center ;
     width: 100%;
@@ -312,7 +312,7 @@ body {
 
 .sm-banner .banner-box{
     text-transform: capitalize;
-    background-image: url(img/banner/b17.jpg);
+    background-image: url(img/black-friday-elements-assortment.jpg);
     background-size: cover;
     background-position: center;
     align-items: start;
@@ -389,7 +389,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img/banner/b7.jpg");
+    background-image: url("img/black-friday-elements-assortment.jpg");
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -400,16 +400,16 @@ body {
 }
 
 #banner3 .banner-box2 {
-    background-image: url("img/banner/b4.jpg")
+    background-image: url("img/stock-photo-hands-holding-colorful-canvas-shoes-1121592479.jpg")
     
 }
 
 #banner3 .banner-box3 {
-    background-image: url("img/banner/b18.jpg");
+    background-image: url("img/banner/b10.jpg");
 }
 
 #banner3 h2{
-    color: #fff;
+    color: #000000;
     font-weight: 900;
     font-size: 22px;
 }
@@ -649,76 +649,6 @@ footer .install .row img{
 
 .prodetails .single-pro-details span{
     line-height: 25px;
-}
-
-
-/* Blog */
-.page-header.blog-header{
-    background-image: url(img/banner/b19.jpg);
-}
-
-.blog{
-    padding: 150px 150px 0 150px;
-}
-
-.blog .blog-box{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    position: relative;
-    padding-bottom: 90px;
-}
-
-.blog .blog-img{
-    width: 50%;
-    margin-right: 40px;
-}
-
-.blog img{
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-
-.blog .blog-details{
-    width: 50%;
-}
-
-.blog .blog-details a{
-    color: black;
-    font-size: 11px;
-    font-weight: 700;
-    position: relative;
-    transition: 0.3s;
-}
-
-.blog .blog-details a::after{
-    content: "";
-    height: 1.5px;
-    width: 50px;
-    background-color: black;
-    position: absolute;
-    top:6px;
-    right: -60px;
-    transition: 0.3s;
-}
-.blog .blog-details a:hover{
-    color: var(--main-color);
-}
-
-.blog .blog-details a:hover::after{
-    background-color: var(--main-color);
-}
-
-.blog .blog-box h1{
-    position: absolute;
-    top: -40px;
-    left: 0;
-    font-size: 70px;
-    font-weight: 700;
-    color: #c9cbce;
-    z-index: -1;
-
 }
 
 /* About us */

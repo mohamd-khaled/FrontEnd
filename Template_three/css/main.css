@@ -675,7 +675,6 @@ footer .box .social li a:hover{
     color: var(--main-color);
 }
 
-
 footer .box .text{
     line-height: 2;
     color: #B9B9B9;
@@ -763,8 +762,5 @@ footer .copyright{
     color: white;
     margin: 50px 0 0;
     border-top: 1px solid #444;
-}
-
-@media (max-width: 767px) {
 }
 /* End Footer */
